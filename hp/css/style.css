@@ -1,0 +1,428 @@
+@charset "utf-8";
+
+/*
+text-color : #2B546A;
+base-color : #F6FAFE;
+*/
+
+.inner {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #2B546A;
+}
+
+.btn {
+    background-color: #3399ff;
+    color: white;
+    padding: 6px 8px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.1rem;
+    list-style: none;
+    /* border: solid 1px #eee; */
+}
+
+body {
+    font-size: 18px;
+    overflow-x: hidden;
+    cursor: default;
+    background-color: #F6FAFE;
+}
+
+/* header */
+
+.header-container {
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Sacramento', Cochin, cursive, serif;
+    letter-spacing: 0;
+}
+
+nav ul {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+nav ul li {
+    font-size: 18px;
+    color: #2B546A;
+}
+
+nav ul li :hover{
+    color: #3399ff;
+}
+
+/* mian-visual */
+
+#main-visual {
+    padding-bottom: 60px;
+}
+
+.main-visual__contents {
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .main-visual__contents__text{
+    padding: 80px 0;
+} */
+
+.main-visual__contents__text p:first-of-type {
+    color: #3399ff;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.main-visual__text__main {
+    margin: 36px 0;
+    font-size: 36px;
+}
+
+.main-visual__contents__text p:last-of-type {
+    color: #2B546A;
+    margin-bottom: 36px;
+}
+
+.main-visual__contents__imgs {
+    width: 50%;
+    position: relative;
+    height: 100%;
+}
+
+.main-visual__contents__imgs__web3 {
+    max-width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-visual__contents__imgs__person {
+    max-width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* sub-main */
+
+#sub-main {
+    padding: 60px 0;
+}
+
+/* .sub-main__container {
+    display: flex;
+    justify-content: center;
+} */
+
+.sub-main__title {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.sub-main__title h2 {
+    color: #2B546A;
+    line-height: 2;
+}
+
+.sub-main__title span {
+    font-weight: normal;
+}
+
+.sub-main__cards {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-main__cards article {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    padding: 18px;
+    background-color: #fff;
+    box-shadow: 4px 4px 8px #ccc;
+}
+
+.sub-main__cards p{
+    color: #333;
+}
+
+.sub-main__cards article svg {
+    width: 50px;
+    margin-right: 24px;
+}
+
+/* merit */
+
+#merit {
+    padding: 60px;
+    background-color: #DEEEFB;
+}
+
+.merit__content {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    padding-top: 60px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 8px #eee;
+}
+
+.merit__title {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.merit__title h2{
+    color: #333;
+    line-height: 2;
+}
+
+.merit__cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.merit__cards li {
+    width: 50%;
+    padding: 40px 30px;
+}
+
+.merit__cards li article{
+    text-align: center;
+}
+
+.merit__cards li article h3 {
+    margin-bottom: 24px;
+    color: #2B546A;
+}
+
+.merit__cards li article p{
+    color: #2B546A;
+    line-height: 2;
+}
+
+.merit__icons{
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.merit__icons li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    color: #2B546A;
+}
+
+.merit__icons li svg {
+    height: 60px;
+    color: #2B546A;
+    margin-bottom: 16px;
+}
+
+#service{
+    padding: 60px;
+}
+
+.service__title{
+    text-align: center;
+    padding: 25px;
+    color: #2B546A;
+}
+
+.service__text{
+    display: flex;
+    justify-content: center;
+}
+
+.service__text p{
+    width: 60%;
+    text-align: center;
+    line-height: 2;
+    padding: 24px;
+    color: #666;
+}
+
+.service__service{
+    display: flex;
+    width: 80%;
+    background-color: #fff;
+    flex-wrap: wrap;
+    margin: 24px auto;
+    border-radius: 30px;
+}
+
+.borderBottom{
+    border-bottom: #2B546A 1px solid;
+}
+
+.borderRight{
+    border-right: #2B546A 1px solid;
+}
+
+.service__service--card{
+    width: 50%;
+    padding: 24px;
+    text-align: center;
+}
+
+.service__service img {
+    width: 150px;
+}
+
+.service__service--card h3{
+    margin: 24px;
+    color: #2B546A;
+}
+
+.service__service--card p{
+    color: #333;
+}
+
+/* reason */
+
+#reason{
+    background-color: #2B546A;
+    padding: 60px 0;
+}
+
+.reason__title{
+    text-align: center;
+    padding: 24px;
+    color: #fff;
+    border-bottom: #fff 1px solid;
+}
+
+.reason__articles{
+    padding: 48px 0;
+}
+
+.reason__article{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    color: #F6FAFE;
+}
+
+.article__content{
+    width: 50%;
+}
+
+.article__img{
+    width: 40%;
+}
+
+.article__title{
+    font-size: 18px;
+    text-align: center;
+}
+
+.article__text p{
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+
+
+/* question */
+
+.question__content{
+    padding: 60px 0;
+}
+
+.question__content{
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.question__title{
+    text-align: center;
+    margin: 24px;
+    color: #2B546A;
+}
+
+.question__card{
+    border-radius: 24px;
+    overflow: hidden;
+    margin: 24px 0;
+}
+
+.question__card ul{
+    background-color: #fff;
+    color: #333;
+}
+
+.question__card ul li{
+    padding-bottom: 12px;
+    list-style-type: disc;
+}
+
+.question__card__q{
+    background-color: #E1EFFA;
+    color: #2B546A;
+    padding: 24px;
+}
+
+.question__card p{
+    background-color: #fff;
+    padding: 24px;
+    color: #333;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #DEEEFB;
+    padding: 24px 0;
+}
+
+.footer__Galistino{
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: 'Sacramento', Cochin, cursive, serif;
+}
+
+.footer__subcopy{
+    font-size: 12px;
+    margin-bottom: 12px;
+}
